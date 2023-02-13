@@ -1,0 +1,323 @@
+@media only screen and (max-width : 1000px){
+/* navbar */
+.navbar ul li {
+    display: none;
+}
+.navbar i{
+    display: block;
+}
+.ham i{
+    margin-right: 15px;
+}
+/* main */
+.main img{
+    width: 300px;
+}
+.right-nav button{
+    margin-right: 50px;
+}
+/* social media */
+.social-link{
+    gap: 20px;
+    position: relative;
+    margin-left: 100px;
+}
+/* footer */
+footer{
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+}
+.footer-subscription{
+    gap: 0px;
+    margin-left: 100px;
+}
+.social-account{
+    margin-left: 100px;
+}
+.arrow-up{
+    right: -64px;
+    bottom: 0;
+    }
+
+}
+@media only screen and (max-width : 700px){
+    body{
+        margin: 0 0vw;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .right-nav{
+        margin-left: 30px;
+    }
+    .main{
+        margin-left: 178px;
+    }
+    .main-img img{
+        width: 100px;
+    }
+    .main img{
+        width: 150px;
+    }
+    .main p{
+        font-size: 10px;
+    }
+    .add-bag{
+        margin-top: 20px;
+        width: 50px;
+    }
+    .shoping-bag button{
+        padding: 5px 10px;
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    /* social-media */
+    .social-link{
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    /* specification */
+    .specification-logo,
+    .case-img{
+    scale: 0.5;
+    margin-bottom: 10px;
+    }
+    .specification-list{
+        margin-left: 177PX;
+    
+    }
+    .specification-list img{
+        scale: 0.4;
+    }
+    .specification-list-item div{
+        margin-bottom:10px;
+    }
+    .speci{
+        margin-right: 100px;
+    }
+    .speci img{
+        width: 300px;
+    }
+    /* case */
+    .case{
+        margin-top: 10px;
+    }
+    .case-item{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .case-item-img{
+        width: 20vw;
+    }
+    .case-item div {
+        width: 50%;
+    }
+    .case-item div p:first-child{
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .case-item div p:last-child{
+    width: fit-content;
+    background: #1e1e21;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    padding: 10px 20px;
+    }
+    /* buy-product */
+    .buy-product{
+        gap: 8px;
+        margin-top: 10px;
+        padding: 10px 0;
+        margin-left: 0px;
+        padding-left: 100px;
+    }
+    .buy-product div{
+        width: 50%;
+    }
+    .buy-product div h3{
+        font-size: 14px;
+    }
+    .buy-product div div{
+        padding: 10px 10px;
+    }
+    /* product-list */
+    .product{
+        margin: 10px 50px;
+    }
+    .product-img{
+        top: -20px;
+        left: 28px;
+    }
+    /* footer */
+    .footer-subscription{
+        gap: 10px;
+    }
+    .footer-subscription input{
+    width: 60px;
+    }
+    .subscribe-button{
+        padding: 0px 10px;
+        margin-left: 60px;
+    }
+    .subscribe-button p{
+        font-size: 10px;
+    }
+    .social-account{
+        margin-left: 50px;
+    }
+    .arrow-up{
+    right: 0px;
+    bottom: 0;
+    }
+    }
+@media only screen and (max-width : 425px){
+    .right-nav button{
+        padding: 5px 10px;
+    }
+    body{
+        margin: 0 0vw;
+    }
+.right-nav{
+    margin-left: 30px;
+}
+.main{
+    margin-left: 178px;
+}
+.main-img img{
+    width: 100px;
+}
+.main img{
+    width: 150px;
+}
+.main p{
+    font-size: 10px;
+}
+.add-bag{
+    margin-top: 20px;
+    width: 50px;
+}
+.shoping-bag button{
+    padding: 5px 10px;
+}
+.main-section{
+    flex-direction: column;
+}
+/* social-media */
+.social-link{
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    gap: 5px;
+}
+/* specification */
+.specification-logo,
+.case-img{
+scale: 0.5;
+margin-bottom: 10px;
+}
+.specification-list{
+    margin-left: 177PX;
+
+}
+.specification-list img{
+    scale: 0.4;
+}
+.specification-list-item div{
+    margin-bottom:10px;
+}
+.speci{
+    margin-right: 100px;
+}
+.speci img{
+    width: 300px;
+}
+/* case */
+.case{
+    margin-top: 10px;
+}
+.case-item{
+    flex-direction: column;
+    gap: 5px;
+}
+.case-item-img{
+    width: 20vw;
+}
+.case-item div {
+    width: 50%;
+}
+.case-item div p:first-child{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.case-item div p:last-child{
+width: fit-content;
+background: #1e1e21;
+border-radius: 8px;
+display: flex;
+align-items: center;
+gap: 20px;
+font-size: 12px;
+padding: 10px 20px;
+}
+/* buy-product */
+.buy-product{
+    gap: 8px;
+    margin-top: 10px;
+    padding: 10px 0;
+    margin-left: 0px;
+    padding-left: 100px;
+}
+.buy-product div{
+    width: 50%;
+}
+.buy-product div h3{
+    font-size: 14px;
+}
+.buy-product div div{
+    padding: 10px 10px;
+}
+/* product-list */
+.product{
+    margin: 10px 50px;
+}
+.product-img{
+    top: -20px;
+    left: 28px;
+}
+/* footer */
+footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-subscription{
+    gap: 0px;
+    margin-left: 50px;
+}
+.footer-subscription input{
+width: 50px;
+}
+.subscribe-button{
+    padding: 0px 10px;
+    margin-left: 60px;
+}
+.subscribe-button p{
+    font-size: 10px;
+}
+.social-account{
+    margin-left: 50px;
+}
+.arrow-up{
+right: -64px;
+bottom: 0;
+}
+}
